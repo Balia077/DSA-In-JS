@@ -14,3 +14,6 @@ console.log(a+parseFloat(b)); // 14
 console.log(a+String(b)); // "77"
 console.log(a+Boolean(b)); // 8 
 console.log(a+!!(b)); // 8 
+
+console.log("sum of a and b " + a + b); // "sum of a and b 77"
+console.log("sum of a and b " + (a + b)); // "sum of a and b 14"
